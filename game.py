@@ -51,6 +51,13 @@ def main():
 
 
 
+
+def ellipse():
+    for _ in range (4):
+        print(".", end="", flush=True)
+        time.sleep(speed * 5)
+    print("\n")
+
 def slowprint(text, end="\n\n"):
     for char in text:
         print(char, end="", flush=True)
